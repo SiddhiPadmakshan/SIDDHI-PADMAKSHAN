@@ -3,11 +3,8 @@
     
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
     <%@ taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql" %>
-    
-    
-<center><h3>FlyAway the best way to book a flight<h3></center>
+     
 
-<center><h4>Enter the details for the flight you want to book.<h4></center>
 
 <!DOCTYPE html>
 <html>
@@ -16,8 +13,8 @@
 <title>Search for Flights</title>
 </head>
 <body>
-
-
+<center><h3>FlyAway the best way to book a flight<h3></center>
+<center><h4>Enter the details for the flight you want to book.<h4></center>
 <%
 if(request.getParameter("error") != null){
 	out.println("<p style='color:red;''><b>Note: <br>Source and the Destination cannot be the same.<br>" +

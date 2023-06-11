@@ -45,7 +45,7 @@
 <center>
 <h1>FlyAway</h1>
 <h2>The best way to book a flight</h2></center>
-<h3>List of Available Flights for <%=passengers%> on <%=date%> from <%=source%> to <%=destination%></h3>
+<h3>List of Available Flights for <%=passengers%> on or after <%=date%>  from <%=source%> to <%=destination%></h3>
 <table border="1">
     <thead>
         <tr>
